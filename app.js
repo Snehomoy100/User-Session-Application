@@ -8,8 +8,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(useragent.express());
 
-app.post('/createUser', createUser);
-app.get('/doGetUser', getUser);
-app.post('/logoutUser', logoutUser);
+app.post('/create-user', createUser);
+app.get('/get-user', getUser);
+app.post('/logout', logoutUser);
 
 module.exports = app;
