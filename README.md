@@ -19,7 +19,7 @@
    Make sure you have Docker daemon installed locally on your system. Once this is up, it should create a container called `hashstack-finance-assignment`.
 
 ### Screenshot of docker container
-![docker-container](https://i.postimg.cc/2yfJ4HW8/SCR-20240729-lehn.png)
+![docker-container](https://i.postimg.cc/J09B2jnS/docker.png)
 
 2. **(Optional)** Add a .env file in root:
     **I have added the .env for setting it up on local with convenience (ideally a .env file should be created before running the application, & put the below mentioned in that .env file)**
@@ -50,12 +50,14 @@
    ```
 
 ## Screenshots of the outputs:
-### submit-blog api:
-![submit-blog](https://i.ibb.co/WGhrKLx/submit-blog.png)
+### create-user api:
+![submit-blog](https://i.postimg.cc/VsH9tCYq/create-user.png)
 
-### search-blog api:
-![search-blog](https://i.postimg.cc/bJPqFXbh/search-blog.png)
+### get-user api:
+![search-blog](https://i.postimg.cc/8zdrZJVn/get-user.png)
 
+### logout api:
+![search-blog](https://i.postimg.cc/MGWfN66Z/logout.png)
 
 ## Project File Structure
 
