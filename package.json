@@ -1,0 +1,19 @@
+{
+  "name": "user-session-management",
+  "version": "1.0.0",
+  "description": "User session management system assignment by Hashstack.finance",
+  "author": "Snehomoy Maitra",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^6.6.2",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "body-parser": "^1.19.0",
+    "express-useragent": "^1.0.15",
+    "dotenv": "^16.0.0"
+  }
+}
